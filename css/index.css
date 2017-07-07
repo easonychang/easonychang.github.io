@@ -33,9 +33,9 @@ p, h1 {
 .poster {
     width: 100%;
     height: calc(100% - 81px);
-    background: linear-gradient(rgba(10,10,10,0.1), rgba(10,10,10,0.1)),
-                url(../images/cowles_mountain.jpg) 
+    background: linear-gradient(rgba(10,10,10,0.1), rgba(10,10,10,0.1)), 
                 no-repeat center;
+    background-image: url(../images/cowles_mountain.jpg);
     background-size: cover;
     color:white;
     text-align: center;
