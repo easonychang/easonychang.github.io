@@ -25,10 +25,25 @@ p, h1 {
     
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  /*background-color: #00CED1!important;*/
+  color: #A7DBD8!important;
+  text-decoration: none;
+}
+
 .navbar .navbar-collapse{
     text-align: center;
 }
 
+.navbar-brand {
+    text-align: center;
+    float: none !important;
+    margin: 0; 
+}
+
+.navbar-brand:hover{
+    color: #A7DBD8!important;
+}
 
 .poster {
     width: 100%;
@@ -58,15 +73,16 @@ p, h1 {
 }
 
 
-/* iPhone Portrait*/
+/* Mobile Portrait*/
 @media (max-height: 480px) {
-    .h1{
+    .h1,h1{
         padding-top: 640px;
+        font-size: 30px;
     }
 }
 
 @media (max-width: 425px){
-    .h1{
+    .h1,h1{
         font-size: 30px;
     }
 }

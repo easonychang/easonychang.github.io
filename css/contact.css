@@ -25,6 +25,36 @@ p, h1 {
     
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  /*background-color: #00CED1!important;*/
+  color: #A7DBD8!important;
+  text-decoration: none;
+}
+
 .navbar .navbar-collapse{
     text-align: center;
+}
+
+.navbar-brand {
+    text-align: center;
+    float: none !important;
+    margin: 0; 
+}
+
+.navbar-brand:hover{
+    color: #A7DBD8!important;
+}
+
+.contact {
+    background: black;
+    text-align: center;
+
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover{
+    color: #A7DBD8;
 }

@@ -25,17 +25,46 @@ p, h1 {
     
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  /*background-color: #00CED1!important;*/
+  color: #A7DBD8!important;
+  text-decoration: none;
+}
+
 .navbar .navbar-collapse{
     text-align: center;
 }
 
+.navbar-brand {
+    text-align: center;
+    float: none !important;
+    margin: 0; 
+}
 
+.navbar-brand:hover{
+    color: #A7DBD8!important;
+}
 
+.circular-profile{
+    margin-top : 25px;
+}
 
+.circular-profile img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
 
+.about-me {
+   margin-left: 30px;
+}
 
-
-
+.title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+}
 
 .contact {
     background: black;
@@ -45,4 +74,21 @@ p, h1 {
 
 .fa {
     color: white;
+}
+
+.fa:hover{
+    color: #A7DBD8;
+}
+
+/* Mobile Portrait*/
+@media (max-height: 480px) {
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px){
+    .title {
+        font-size: 20px;
+    }
 }
