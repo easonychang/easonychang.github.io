@@ -52,14 +52,13 @@ p, h1 {
                 no-repeat center;
     background-image: url(../images/cowles_mountain.jpg);
     background-size: cover;
+    background-position: center;
     color:white;
     text-align: center;
 }
 
 .poster-text {
-
     text-align: center; 
-
 }
 
 .contact {
@@ -72,6 +71,9 @@ p, h1 {
     color: white;
 }
 
+.fa:hover{
+    color: #A7DBD8;
+}
 
 /* Mobile Portrait*/
 @media (max-height: 480px) {
