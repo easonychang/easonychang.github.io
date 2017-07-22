@@ -75,10 +75,21 @@ p, h1 {
     color: #A7DBD8;
 }
 
+/* Huge Monitor*/
+@media (min-width: 1524px){
+    .h1,h1{
+        padding-top: 330px;
+        font-size: 50px;
+    }
+}
+
+
+
+
+
 /* Mobile Portrait*/
 @media (max-height: 480px) {
     .h1,h1{
-        padding-top: 640px;
         font-size: 30px;
     }
 }
@@ -88,3 +99,4 @@ p, h1 {
         font-size: 30px;
     }
 }
+
