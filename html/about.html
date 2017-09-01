@@ -12,18 +12,35 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<!-- Semantic UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.js" type='text/javascript'></script>
+
+    
 <!-- Font Awesome -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/about.css" />
+    
+<!-- JavaScript -->
+    
+    <script src='../js/about.js'></script>
 
+
+<!-- jQuery Skill Set Plugin -->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/skillsetstyle.css">
+    <link rel="stylesheet" href="../js/skillset.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="../js/skillset.js"></script>
 
 </head>
 <body>
 
 <!-- Navigation Bar -->    
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class = "container-fluid">
         <div class = "navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -50,12 +67,45 @@
 </nav>
 
 
+<!-- In Page NavBar -->
+<!--<nav class="navbar navbar-inverse navbar-two navbar-fixed-top">
+    <div class = "container-fluid">
+        <div class = "navbar-header">
+            <h1 class="navbar-brand visible-xs">About Me</h1>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li> <a href=""> About Me </a></li>
+            <li> <a href="#exp" > Experience </a></li>
+            <li> <a href="#lead"> Leadership </a></li>
+            <li> <a href="#skil"> Skills </a></li>
+            <li> <a href="#edu"> Education </a></li>
+        </ul>
+    </div>
+            
+</nav>
+
+in page drop down
+<div class ="ui dropdown">
+        <div class = 'text'><h5>About Me</h5></div>
+    <i class = 'dropdown icon'></i>
+    <div class='menu'>
+        <div class='item'><h4>About Me</h4></div>
+        <div class='item'><h4>Experience</h4></div>
+        <div class='item'><h4>Leadership</h4></div>
+        <div class='item'><h4>Skills</h4></div>
+        <div class='item'><h4>Education</h4></div>
+    </div>
+</div>
+--> 
 
 <div class = "container">
 
     <!-- About Me -->
     <div class = "row">
-        
+        <div class ="col ribbon blue shadow">
+            <h2>About Me</h2>
+        </div>
     </div>
     <div class = "row">
         <div class = "col-md-4 pic">
@@ -75,13 +125,192 @@
 
 
     <!-- Experience -->
+    <div class = "row"> 
+        <div class ="col ribbon charcol shadow">
+            <h2>Experience</h2>
+        </div>
+    </div>
+
+    <div class = "row">
+        <h3>Elementary Institute of Science </h3>
+        <p> Part time Instructor | San Diego, CA | Sept 2016 – June 2017 </p>
+        <p>* Prepares lesson plans and hands on teaching to teach introductory concepts of computer science</p>
+        <p>* Utilizes online tools such as code.org to introduce basic for loop, methods, and code execution to elementary school students. </p>
+        <p>* Instructs and oversees mini coding projects for over 50 students</p>
     
-
+    </div>
+    
     <!-- Leadership -->
+     <div class = "row"> 
+        <div class ="col ribbon blue shadow">
+            <h2>Leadership</h2>
+        </div>
+    </div>
+    
+    <div class = "row">
+        <h3>Teaching and Learning Commons, UCSD </h3>
+        <p>Supplemental Instruction Leader | San Diego, CA | June 2017 - Present </p>
+        <p>* Prepares lesson plans and use collaborative learn techniques to present harder math concepts students struggled with </p>
+        <p>* Host problem solving session to further the students understanding of the material</p>
+        <p>* Instructs and oversees over 50 students </p>
+    
+    </div>
+    
+    
+    <!-- Skills -->
+    <div class = "row anchor"> 
+        <div class ="col ribbon seablue shadow">
+            <h2>Skills</h2>
+        </div>
+    </div>
+    
+    <div class = "row">
+        <div class = "col">
+            <main>
+                <h3 id="skills">Languages</h3>
+                <div class="section skills">
+                    <div id="skillset" class="column1"> </div>
+                </div>
+            </main>
+            <script type="text/javascript">
 
+			var object = [
 
+				{
+
+					'headline':'HTML',
+					'value':8,
+					'length':10,
+
+				},
+				{
+
+					'headline':'CSS',
+					'value':8,
+					'length':10,
+					
+
+				},
+                {
+
+					'headline':'json',
+					'value':4,
+					'length':10,
+
+				},
+                {
+
+					'headline':'Javascript',
+					'value':5,
+					'length':10,
+
+				},
+				{
+
+					'headline':'Python',
+					'value':6,
+					'length':10,
+
+				},
+                {
+
+					'headline':'C++',
+					'value':8,
+					'length':10,
+
+				},
+                {
+
+					'headline':'C',
+					'value':8,
+					'length':10,
+
+				},
+                {
+
+					'headline':'ARM Assembly',
+					'value':6,
+					'length':10,
+
+				},
+                {
+
+					'headline':'Java',
+					'value':8,
+					'length':10,
+
+				},
+                {
+
+					'headline':'C#',
+					'value':6,
+					'length':10,
+
+				},
+                {
+
+					'headline':'Swift',
+					'value':6,
+					'length':10,
+
+				},
+                {
+
+					'headline':'SQL',
+					'value':6,
+					'length':10,
+
+				},
+                
+
+			];
+
+			$(document).ready(function(){
+
+				$("#skillset").skillset({
+
+					object:object,
+					duration:0
+
+				});
+
+			});
+
+		</script>
+            <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+        </div>
+    
+        <div class = "row">
+            <main>
+                <h3 id="skills">Frameworks</h3>
+                    <div class="section skills">
+                        <div id="skillset" class="column1"> </div>
+                    </div>
+            </main>
+            
+        </div>
+    </div>
+    
+    
     <!-- Education -->
-
+    <div class = "row anchor"> 
+        <div class ="col ribbon green shadow">
+            <h2>Education</h2>
+        </div>
+    </div>
 
 
     <!-- Course Work -->
