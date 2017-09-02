@@ -1,31 +1,32 @@
-(function ( $ ) {
+(function ($) {
 
-	$.fn.skillset = function( options ) {
+	$.fn.skillset = function (options) {
 
 		_this = this;
 
 		$.fn.extend({
 
-			isOnScreen: function(){
+			isOnScreen: function () {
 
 				var win = $(window);
 				var viewport = {
 					top : win.scrollTop(),
 					left : win.scrollLeft()
 				};
+                var bounds = this.offset();
 				viewport.right = viewport.left + win.width();
 				viewport.bottom = viewport.top + win.height();
-				var bounds = this.offset();
+				
 				bounds.right = bounds.left + this.outerWidth();
 				bounds.bottom = bounds.top + this.outerHeight();
 
 				return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
 			},
 
-			setRun: function(option){
+			setRun: function (option) {
 				hasRun = option;
 			},
-			checkRun: function(){
+			checkRun: function () {
 				return hasRun;
 			}
 
@@ -35,17 +36,17 @@
             // These are the defaults.
             object: "",
             duration: 80
-        }, options );
+        }, options);
 
 		$(this).setRun(false);
-		if($(this).isOnScreen() && !$(this).checkRun() ){
+		if ($(this).isOnScreen() && !$(this).checkRun()) {
 			create_trigger($(this));
 		}
 
-		function bar_loop(start,value,length){
-
-			var j=0;
-			for(var i = 0; i < length; i++){
+		function bar_loop(start, value, length) {
+            
+			var j = 0;
+			for (var i = 0; i < length; i++) {
 
 				setTimeout(function(){
 
@@ -79,14 +80,14 @@
 			for(var i = 0; i < count; i++){
 
 				start = $(element).find('ul');
-				var html = '<li class="skill-'+(i+1)+'""><p>'+settings.object[i]['headline']+' <span class="icon-info-circled" data-info="'+settings.object[i]['description']+'"></span></p><div class="bar"></div></li>';
+				var html = '<li class="skill-'+(i+1)+'""><p>'+settings.object[i]['headline']+' <span data-info="'+'"></span></p><div class="bar"></div></li>';
 				html = $(html).appendTo(start).find('.bar');
 
 				var value = settings.object[i]['value'];
 				var length = settings.object[i]['length'];
 
 				bar_loop(html,value,length);
-
+                console.log("FUNCTION CALLED")
 			}
 
 		}

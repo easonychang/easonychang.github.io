@@ -27,11 +27,6 @@ p, h1 {
 }
 
 
-/*.navbar-two{
-    background: #1F2041 !important;
-    top: 50px;
-}*/
-
 .nav > li > a:hover, .nav > li > a:focus {
   /*background-color: #00CED1!important;*/
   color: #A7DBD8!important;
@@ -57,60 +52,7 @@ p, h1 {
     color: #A7DBD8!important;
 }
 
-/*@media (max-width: 992px) {
-    body {
-        padding: 0;
-    }
-    .navbar-two {
-        display: none;
-    }
-} */
  
-/*DROPDOWN*/
-/*
-.dropdown-section {
-    padding: 0;
-}
-
-i.dropdown.icon {
-    font-size: 0.5em;
-    margin: 0 !important;
-    color: #9d9d9d;
-}
-
-.ui.dropdown {
-    font-size: 18px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: #1F2041;
-    color: #9d9d9d;
-}
-
-.ui.dropdown:hover{
-    color: #A7DBD8!important;
-}
-
-.ui.dropdown .menu {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.ui.dropdown .menu > * {
-    padding: 20px 0;
-}
-
-.ui.dropdown .menu .item {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-@media (min-width: 992px) {
-    .ui.dropdown {
-        display: none;
-    }
-} */
 
 /*About Me Profile*/
 
@@ -138,26 +80,40 @@ i.dropdown.icon {
     text-align: center;
 }
 
+.bold{
+    font-weight: bold;
+}
 
 h2{
   margin: 0;
   padding: 20px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
 
-/*h5{
-    font-size: 20px;
-    padding: 10px;
-    color: #9d9d9d;
-} */
+h4{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
 
 p{
      font-size: 18px;
 }
 
-.education{
+.alignright{
     text-align: left;
+}
+
+.aboutsection{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Ribbons */
@@ -166,11 +122,6 @@ p{
   text-align: center;
   line-height: 20px;
   letter-spacing: 1px;
-}
-
-.aboutsection{
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 /* Custom styles */
@@ -191,6 +142,12 @@ p{
 .ribbon.seablue{background: #177E89;}
 .ribbon.green{background: #44AF69;}
 
+.cs-cw,
+.math-cw{
+    display: none;
+}
+
+
 /*Contact*/
 
 .contact {
@@ -199,11 +156,11 @@ p{
 
 }
 
-.fa {
+.contact .fa {
     color: white;
 }
 
-.fa:hover{
+.contact .fa:hover{
     color: #A7DBD8;
 }
 
