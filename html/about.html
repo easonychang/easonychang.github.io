@@ -107,14 +107,15 @@ in page drop down
             <h2>About Me</h2>
         </div>
     </div>
-    <div class = "row">
+    <div class = "row section1">
         <div class = "col-md-4 pic">
             <div class = "circular-profile">
                 <center><img src="../images/profilepic.jpg"></center>
             </div>
+            
         </div>
         <div class = "col-md-7 about-me" >
-            <div class = "title"><p>Hello! I am Eason!</p> </div>
+            <div class = "title"><h3>Hello! I am Eason!</h3> </div>
             <p>I am from Taipei, Taiwan, but have been a resident of California since I was a child, so I am fluent in both Mandarin Chinese and English. </p><br>
             <p>I am a third year undergraduate student majoring in Mathematics, Computer Science at University of California, San Diego, with a minor in Business. </p><br>
             <p>I work as an Supplemental Instruction Leader at Teaching and Learning Commons at UC San Diego. I have received a lot of help on the way, therefore, I would also want to be able to provide that for others when I am able to.</p><br>
@@ -131,7 +132,7 @@ in page drop down
         </div>
     </div>
 
-    <div class = "row">
+    <div class = "row section1">
         <h3>Elementary Institute of Science </h3>
         <p> Part time Instructor | San Diego, CA | Sept 2016 – June 2017 </p>
         <p>* Prepares lesson plans and hands on teaching to teach introductory concepts of computer science</p>
@@ -147,7 +148,7 @@ in page drop down
         </div>
     </div>
     
-    <div class = "row">
+    <div class = "row section1">
         <h3>Teaching and Learning Commons, UCSD </h3>
         <p>Supplemental Instruction Leader | San Diego, CA | June 2017 - Present </p>
         <p>* Prepares lesson plans and use collaborative learn techniques to present harder math concepts students struggled with </p>
@@ -158,16 +159,16 @@ in page drop down
     
     
     <!-- Skills -->
-    <div class = "row anchor"> 
+    <div class = "row"> 
         <div class ="col ribbon seablue shadow">
             <h2>Skills</h2>
         </div>
     </div>
     
-    <div class = "row">
+    <div class = "row section">
         <div class = "col">
             <main>
-                <h3 id="skills">Languages</h3>
+                <h3>Languages</h3>
                 <div class="section skills">
                     <div id="skillset" class="column1"> </div>
                 </div>
@@ -261,11 +262,12 @@ in page drop down
 					'length':10,
 
 				},
-                
+            
+            
 
 			];
 
-			$(document).ready(function(){
+            $(document).ready(function(){
 
 				$("#skillset").skillset({
 
@@ -273,10 +275,84 @@ in page drop down
 					duration:0
 
 				});
+			});
+
+
+		</script>
+        
+        </div>
+    
+        <div class = "row">
+            <main>
+                <h3 id="skills">Framework/Library</h3>
+                    <div class="section skills">
+                        <div id="skillset1" class="column1"> </div>
+                    </div>
+            </main>
+            <script type="text/javascript">
+
+			     var objecttwo = [
+
+				    {
+
+					   'headline':'Bootstrap',
+					   'value':8,
+					   'length':10,
+
+				    },
+				    {
+
+					   'headline':'jQuery',
+					   'value':6,
+					   'length':10,
+					
+
+				    },
+                    {
+
+					   'headline':'Foundation',
+					   'value':5,
+					   'length':10,
+
+				    },
+                    {
+
+					   'headline':'SQLite',
+					   'value':8,
+					   'length':10,
+
+                    },
+				    {
+
+					   'headline':'MongoDB',
+					   'value':6,
+					   'length':10,
+
+				    },
+                    {
+
+					   'headline':'MySQL',
+					   'value':6,
+					   'length':10,
+
+				    },
+                
+
+			     ];
+
+			     $(document).ready(function(){
+
+				$("#skillset1").skillset({
+
+					object:objecttwo,
+					duration:0
+
+				});
 
 			});
 
-		</script>
+            </script>
+            
             <script type="text/javascript">
 
             var _gaq = _gaq || [];
@@ -292,29 +368,49 @@ in page drop down
 
         </script>
         </div>
-    
-        <div class = "row">
-            <main>
-                <h3 id="skills">Frameworks</h3>
-                    <div class="section skills">
-                        <div id="skillset" class="column1"> </div>
-                    </div>
-            </main>
-            
-        </div>
     </div>
     
     
     <!-- Education -->
-    <div class = "row anchor"> 
+    <div class = "row"> 
         <div class ="col ribbon green shadow">
             <h2>Education</h2>
         </div>
     </div>
 
+    
+    <div class = "row section1 education">
+        <div>
+            <h3>University</h3>
+            <p>University of California, San Diego </p>
+            <p>La Jolla</p>
+            <p>Sept 2015 - June 2019</p>
+            <p>Bachelor of Science: Math and Computer Science</p>
+        
+            <p>GPA: 3.51 | Provost’s Honors List </p>
+            <p>James R. Bunch Scholarship Awardee 2017-2018 </p>
 
-    <!-- Course Work -->
+            <p>I came into UCSD with a strong passion for problem solving. At first, I was unsure about which major I would be interested. But quickly, I have discovered that computer science was the right one for me. I have been intrigued by every new topics I have been introduced ever since.</p>
+        </div>
+        <!-- Course Work -->
+        <div>
+            <h3>Relevant Course Work</h3>
+            <p>Cogs 9 Introduction to Data Science</p>
+            <p>CSE 8A Introduction to Computer Science I </p>
+            <p>CSE 8B Introduction to Computer Science II </p>
+            <p>CSE 12 Basic Data Structure and Object Oriented Design</p>
+            <p>CSE 20 Discrete Mathematics</p>
+            <p>CSE 21 Algorithm and Systems Analysis</p>
+            <p>Math 109 Mathematical Reasonings</p>
+            <p>CSE 30 Computer Organization and System Analysis</p>
+            <p>CSE 100 Advanced Data Structure</p>
+            <p>CSE 101 Design and Analysis of Algorithms</p>
+            <p>CSE 105Intro to Theory of Computations</p>
+            <p>CSE 151 Introduction to Artificial Intelligence: Statistical Approaches</p>
+            <p>CSE 110 Software Engineering</p>
 
+        </div>
+    </div>
 </div>
 
 

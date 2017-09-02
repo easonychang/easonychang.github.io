@@ -134,10 +134,8 @@ i.dropdown.icon {
 }
 
 .title{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 30px;
 }
 
 
@@ -148,10 +146,18 @@ h2{
   color: #fff;
 }
 
-h5{
+/*h5{
     font-size: 20px;
     padding: 10px;
     color: #9d9d9d;
+} */
+
+p{
+     font-size: 18px;
+}
+
+.education{
+    text-align: left;
 }
 
 /* Ribbons */
@@ -162,6 +168,10 @@ h5{
   letter-spacing: 1px;
 }
 
+.section1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* Custom styles */
 
