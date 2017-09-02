@@ -133,8 +133,8 @@ i.dropdown.icon {
    margin-right: 30px;
 }
 
-.title{
-    margin-bottom: 15px;
+.abouttitle{
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -168,9 +168,9 @@ p{
   letter-spacing: 1px;
 }
 
-.section1{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.aboutsection{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Custom styles */
