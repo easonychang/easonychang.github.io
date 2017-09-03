@@ -39,11 +39,10 @@
         }, options);
 
 		$(this).setRun(false);
-		if ($(this).isOnScreen() && !$(this).checkRun()) {
-			create_trigger($(this));
-		}
 
-		function bar_loop(start, value, length) {
+        create_trigger($(this));
+
+        function bar_loop(start, value, length) {
             
 			var j = 0;
 			for (var i = 0; i < length; i++) {
@@ -87,18 +86,16 @@
 				var length = settings.object[i]['length'];
 
 				bar_loop(html,value,length);
-                console.log("FUNCTION CALLED")
 			}
 
 		}
 
-		$(document).scroll(function(){
-
+		/*$(document).scroll(function(){
 			if($(_this).isOnScreen() && !$(_this).checkRun()){
 				create_trigger($(_this));
 			}
 
-		});
+		});*/
 
 		/*$('.icon-info-circled').hover(function(){
 			$(this).css('color','#222222');

@@ -267,11 +267,9 @@
             $(document).ready(function(){
 
 				$("#skillset").skillset({
-
 					object:object,
 					duration:0,
 				});
-                console.log("skill1")
 			});
 
 
@@ -281,7 +279,7 @@
     
         <div class = "col">
             <main>
-                <h3 id="skills">Framework/Library/Tool</h3>
+                <h3 id="skills">Framework/Library</h3>
                     <div class="section skills">
                         <div id="skillsettwo" class="column1"> </div>
                     </div>
@@ -341,12 +339,11 @@
 			 $(document).ready(function(){
 
 				$("#skillsettwo").skillset({
-
+                    
 					object:objecttwo,
 					duration:0,
 
 				});
-                console.log("skill2");
 
 			});
 
@@ -367,6 +364,95 @@
 
         </script>
         </div>
+        
+        <div class = "col">
+            <main>
+                <h3 id="skills">Integrated Development Enviroment/Tools</h3>
+                    <div class="section skills">
+                        <div id="skillsetthree" class="column1"> </div>
+                    </div>
+            </main>
+            <script type="text/javascript">
+
+			     var objectthree = [
+
+				    {
+
+					   'headline':'Android Studio',
+					   'value':6,
+					   'length':10,
+
+				    },
+				    {
+
+					   'headline':'XCode',
+					   'value':6,
+					   'length':10,
+					
+
+				    },
+                    {
+                        
+                       'headline':'Git',
+					   'value':8,
+					   'length':10,
+                        
+                    },
+                    {
+
+					   'headline':'GDB',
+					   'value':8,
+					   'length':10,
+
+                    },
+				    {
+
+					   'headline':'Valgrind',
+					   'value':7,
+					   'length':10,
+
+				    },
+                    {
+
+					   'headline':'VIM',
+					   'value':8,
+					   'length':10,
+
+				    },
+                    
+                
+
+			     ];
+            
+			 $(document).ready(function(){
+
+				$("#skillsetthree").skillset({
+                    
+					object:objectthree,
+					duration:0,
+
+				});
+
+			});
+
+            </script>
+            
+            <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+        </div>
+        
     </div>
     
     
