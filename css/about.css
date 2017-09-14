@@ -9,6 +9,7 @@ p, h1 {
     margin: 0;
 }
 
+
 .h1, h1{
     font-size:50px;
     padding-top: 300px;
@@ -95,6 +96,7 @@ h2{
 h4{
     font-size: 25px;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 h5{
@@ -109,6 +111,7 @@ p{
 
 .alignright{
     text-align: left;
+    margin-left: 5px;
 }
 
 .aboutsection{
