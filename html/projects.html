@@ -16,6 +16,14 @@
 
 <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/projects.css" />
+<!-- MathJAX -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- JavaScript -->
+    <script src='../js/projects.js'></script>
+
 </head>
 
 
@@ -42,13 +50,13 @@
             <li> <a href="./about.html" > ABOUT </a></li>
             <li class = "nav-item active"> <a href= "./projects.html"> PROJECTS </a></li>
             <li> <a href ="./contact.html"> CONTACT</a></li>
-            <li> <a href="../files/Eason_Chang_Resume.pdf"> RESUME </a> </li>
+            <li> <a href="../files/Eason_Chang_Resume.pdf" target="_blank"> RESUME </a> </li>
             <li> 
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">TEACHING<span class="caret"></span> </a>
                 <ul class="dropdown-menu">
                     <li><a href="#">EIS Comp Sci(Fall 2016)</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">SI Math 18 (SS1)</a></li>
+                    <li><a href="#">SI Math 18 (SS2 2017)</a></li>
                 </ul>
             </li>
         </ul>
@@ -67,42 +75,190 @@
     
 
     <div class= "container-fluid project-card">
+        <i class="fa fa-expand slide-down"></i>
+        <i class="fa fa-compress slide-up"></i>
         <h1>Independent Set</h1>
-        <div class = "col-md-7">
-            <div class = "short-descip">
-                <p>The maximal independent set problem explored in this program is an NP-hard optimization problem. A greedy approach and a backtracking approach were used on the maximal independent set problem. There is also an extension that provides an example of a real life application of this problem.</p>
-            </div>
+        <div class ="row short">
+            <div class = "col-md-7">
+                <div class = "short-descip">
+                    <p>Have you ever wonder how social media works? How many people have to share an announcement for everyone on the network to see it? Well, you have found the right person to answer your question.</p>
+                    <p>The maximal independent set problem explored in this program is a NP-hard optimization problem. A greedy approach and a backtracking approach were used for the maximal independent set problem.</p>
+                </div>
             
-            <div class = "skill-tag">
-                <div class = "skill">Algorithm</div>
-                <div class = "skill">Graph Theory</div>
-                <div class = "skill">C++</div>
-            </div>
-        </div>
-        
-        <div class = "col-md-5">
-            <div class = "repo-link text-center">
-                <div class = "link">
-                    <a href=https://github.com/easonychang/IndependentSet target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                <div class = "skill-tag">
+                    <div class = "skill">C++</div>
+                    <div class = "skill">Algorithm</div>
+                    <div class = "skill">Graph Theory</div>
                 </div>
             </div>
-            <img src="../images/indepSet/tweet_announcement.png" class ="image" style="width: 85%;"/>
         
+        
+            <div class = "col-md-5">
+                <div class = "repo-link text-center">
+                    <div class = "link">
+                        <a href=https://github.com/easonychang/IndependentSet target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                    </div>
+                </div>
+                <img src="../images/indepSet/tweet_announcement.png" class ="image" style="width: 100%;"/>         
+            </div>
+        </div>
+        <div class = "row long-descrip">
+            
+            <h2>Maximal Independent Set</h2>
+            
+            <div class = "row">
+                <div class = "repo-link-long-one text-center">
+                    <div class = "link">
+                        <a href=https://github.com/easonychang/IndependentSet target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                    </div>
+                </div>
+                <img src="../images/indepSet/tweet_announcement.png" class ="image" style="width: 100%;"/>         
+            </div>
+            
+            <p>Have you ever wonder how social media works? How many people have to share an announcement for everyone on the network to see it? Well, you have found the right person to answer your question.</p>
+            <p>The maximal independent set problem explored in this program is a NP-hard optimization problem. A greedy approach and a backtracking approach were used for the maximal independent set problem.</p>
+            
+            <p>The maximal independent set problem explored in this program is a NP-hard optimization problem, so optimal solutions are not likely to be efficient.</p>
+                
+            <h4>Functions</h4>
+            <h5>buildGraph:</h5>
+            <p>Builds a random undirected graph where each possible edge is in the graph with probability 1/2 based on the number of nodes we pass in as a parameter. </p>
+            <h5>printGraph:</h5>
+            <p>Given a graph, print out the content in the C++ vector.</p> <h5>independentSet:</h5>
+            <p>In this function, we implemented a greedy algorithm for maximal independent set based by including nodes of smallest degree. However, the greedy algorithm does not always find the best solution.</p>
+            <p>Run Time: $O(n)$</p>
+            
+            <h5>independentSetBT:</h5>
+            <p> Instance (Input): Undirected Graph <br>
+                Solution Format: Subset of the vertices <br>
+                Constraint: No two vertices are connected with an edge, For each edge e={u,v}, if u is in S, v is not in S. <br>
+                Objective: Maximize the size of the subset. <br>
+                Solution Space: all subsets S of V, |V|= n, number of nodes .<br>
+                Exhaustive search: $O(2^n)$ <br>
+            </p>
+            <p> Backtracking: Do exhaustive search locally, but use             constraints to simplify problem as we go. <br>
+                What is a local decision? For an arbitrary vertex u, is implemented part of the optimal solution or not. <br>
+                What are the possible answers to this decision? Yes or No
+            </p>
+            
+            <p>This is implemented with a backtracking algorithm, with constraints to prune cases that have a dead end, thus giving us a more efficient algorithm compared to an exhaustive search.</p>
+            <p>Although much slower (running in sub-exponential time) than the greedy algorithm, the backtracking algorithm gives the actual size of the maximal independent set in a random set.</p>
+            <p>Run time: $O(2^{0.6n})$</p>
+            
+            <h4>Testing</h4>
+            <p>These two functions are being tested on the randomized graph generated by the buildGraph method. With the data recorded below, it shows that the backtracking algorithm consistently finds a larger independent set, at the rate that’s double of the size of independent set greedy algorithm finds on the same “randomized graph”, which is an indication that it’s giving us the optimal solution as discussed in class. </p>
+  
+            <table align="center" class="table table-bordered table-hover">
+            <col width="25%">
+            <col width="25%">
+            <col width="25%">
+            <col width="25%">
+            <tr>
+                <th colspan="2">Greedy Heuristic</th>
+                <th colspan="2">Backtracking Algorithm</th>
+            </tr>
+            <tr>
+                <th>Nodes (n)</th>
+                <th>Number of Independent Sets (|S|)</th> 
+                <th>Nodes (n)</th>
+                <th>Number of Independent Sets (|S|)</th> 
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1</td>
+                <td>4</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>2</td>
+                <td>8</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>3</td>
+                <td>16</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>3</td>
+                <td>32</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>5</td>
+                <td>64</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>128</td>
+                <td>6</td>
+                <td>128</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>256</td>
+                <td>7</td>
+                <td>256</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>512</td>
+                <td>9</td>
+                <td>512</td>
+                <td>Program took too long to run</td>
+            </tr>
+            </table>
+            
+            <img src="../images/indepSet/Greedy%20Alg%20Graph.png" class ="image-des">
+            <img src="../images/indepSet/BT%20Graph.png" class = "image-des">
+            
+            <h2>Extension</h2>
+            <p>This is a real-life application using the independent set algorithm, which is a use of the minimum spanning set.</p>
+            <h4>Problem: </h4>
+            <p>Given a data set of all users on Twitter/Facebook or any social media, assuming announcements made by a user will be seen by all their followers, find how many users are required to make the announcement for all the people on the same network to see the announcement. Therefore, given a graph, find a subset of vertices, S, such that every vertex not in S is adjacent to at least one vertex not in S is adjacent to at least one vertex in S. </p>
+            <h4>How we solved it:</h4>
+            <p>We have implemented a simple greedy algorithm, and to find the dominant set of vertices and return it. To do that, we marked all the vertices as "uncovered" in each User's constructor. We then initialize an empty vector. While the number of covered edges is not the same as the number of vertices in allUser, then we iterate through allUser to find the user vertex with the most followers, also if a vertex cover field is true, then we simply increment the amount of covered vertex and continue with the loop without trying to find the vertex.</p>
+            <p>Once we have found the vertex user with the most followers, we add it to the dominant set we have initialized and simply set its covered field to true, and we loop through its followers, find the followers in allUser and set their covered field to true as well. Then at the end, we return the sets with all the vertices that were used to cover the entire graph.</p>
+            <h4>How we tested our program:</h4>
+            <p>I came up with some general test cases, the first being smallgraph.tsv, it contains 4 nodes, 1-(3), 2-(3,4), 3-(1,2), 4-(2). The 1, 2, 3, 4 are vertices of the graph, and - denotes edge relationship. It is a directed graph. </p>
+            <p>Therefore, we are trying to figure out how many nodes I have to explore before all the users are reached by the announcement, assuming that all the nodes that are directly connected by the announcer will see the announcement. We find that Node 2 has the 2 edges, which is the most, so does Node 3 but it doesn't matter in this case. We explore and set 2, 3, 4 all to true. Then we see Node 1 is the only vertex that has yet to be explored. </p>
+            <p>Thus, the output file tells us that User 2 and 1 has to announce the news so that all the nodes will see it. Of course, other answers exist, but this algorithm's simply tasked to find one solution, not all the possible solutions, nor the optimal solution.</p>
+            <p>Same goes for smallgraph2.tsv, in which there are Node 1, 2, 3, 4, 5, 6, 7, 8. In which all nodes are connected to 1, but 6, which is only connected to 2. Therefore, we know the answer has to either be 1,6. Node 1 must be explored because it has the most edges, and afterward, 2 through 8 with the exception of Node 6 are all explored. Then we go and explore Node 6. In our output file, it gives us the correct output. </p>
+            
+            <h4>How to run this program:</h4>
+            <p>To run the program please use the following command. <br>
+                ./extension file1 file2 <br> </p>
+            <p>For example: <br>
+                files provided by me <br>
+                > ./extension smallgraph.tsv test.tsv <br>
+                > ./extension smallgraph1.tsv test1.tsv
+            </p>
+            <p>Where column1 is the user number, and the column2 is the user that is a follower of the user in column 1. C1 and C2 are divided by a space. The data provided do not need processing.</p>
+            
+            <h3>Project Type:</h3>
+            <div class = "skill-tag">
+                <div class = "skill">C++</div>
+                <div class = "skill">Algorithm</div>
+                <div class = "skill">Graph Theory</div>
+            </div>
+            
         </div>
         
-        <div class = "long-descrip">
-            <!-- TODO -->
-        </div>
+        
     
     </div>
     
     
     <div class = "container-fluid project-card">
-    
+        <i class="fa fa-expand"></i>
         <h1>Tip Easy</h1>
         <div class = "col-md-7">
             <div class = "short-descip">
-                <p>Don’t have a good tip calculator app on your phone? Tired of tipping the post tax amount? Or you are just like me who tips the pre-tax bill just out of habit. Well, you have found the right app. This is an iOS app that takes in the user’s location to see the tax rate of the location, and calculate the amount of tips to tip your waiters based on the pre-tax bill.</p>
+                <p>Don’t have a good tip calculator app on your phone? Tired of tipping the post-tax amount? Or you are just like me who tips the pre-tax bill just out of habit. Well, you have found the right app. This is an iOS app that takes in the user’s location to see the tax rate of the location and calculate the right amount to tip your waiters based on the pre-tax bill.</p>
             </div>
             
             
@@ -120,10 +276,11 @@
                     <a href=https://github.com/easonychang/Tip-Easy target='_blank'><i class='fa fa-github fa-4x'></i></a>
                 </div>
             </div>
-            <img src="../images/tipeasy.png" class ="image" style="width: 40%;"/>
-        
+            <img src="../images/tipeasy.png" class ="image" style="width: 55%;"/>
+
+            
         </div>
-        
+
         <div class = "long-descrip">
             <!-- TODO -->
         </div>
@@ -131,11 +288,11 @@
     </div>
     
     <div class = "container-fluid project-card">
-    
+        <i class="fa fa-expand"></i>
         <h1>2048 Mod</h1>
-        <div class = "col-md-7">
+        <div class = "col-md-8">
             <div class = "short-descip">
-                <p>2048 is a puzzle game played on a simple grid of size 4x4, with numbered tiles that are a power of 2. They numbered tiles slide in one of 4 directions (UP, DOWN, LEFT, RIGHT) based on user input.  Every turn, a new tile will randomly appear in an empty spot on the board with a value of either 2 or 4. Tiles will slide as far as possible in desired direction until they are stopped by either another tile or the edge of the grid.  If two tiles of the same number collide while moving, they will merge into a tile with a total value of the two tiles that collide.</p>
+                <p>2048 is a puzzle game played on a simple grid of size 4x4, with numbered tiles that are a power of 2. The numbered-tiles slide in one of 4 directions based on user input. Every turn, a new tile will randomly appear in an empty spot on the board with a value of either 2 or 4. Tiles will slide as far as possible in the desired direction until they are stopped by another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles combined.</p>
                 <p>This is a modification of the game 2048, a popular puzzle game in the app store where a player's goal is to create a tile of 2048. The original game can be found <a href ="https://gabrielecirulli.github.io/2048/">here</a>.</p>
             </div>
             
@@ -147,16 +304,17 @@
             </div>
         </div>
         
-        <div class = "col-md-5">
+        <div class = "col-md-4">
             <div class = "repo-link text-center">
                 <div class = "link">
                     <a href=https://github.com/easonychang/2048Game-Mod target='_blank'><i class='fa fa-github fa-4x'></i></a>
                 </div>
             </div>
-            <img src="../images/2048.png" style="width: 90%;"/>
+            <img src="../images/2048.png" class ="image" style="width: 100%;"/>
         
         </div>
         
+
         <div class = "long-descrip">
             <!-- TODO -->
         </div>
@@ -164,13 +322,13 @@
     </div>
     
     <div class = "container-fluid project-card" style = "margin-bottom: 50px;">
-    
+        <i class="fa fa-expand"></i>
         <h1>CSVR</h1>
         <div class = "col-md-7">
             <div class = "short-descip">
                 <p>This is a virtual reality experience and an education tool where you can learn a lot of concepts and data structure of computer science. I implemented the back end and the design of interactive data structure, such as stack and hash table in three different collision strategies in Unity using C#.</p>
                 
-                <p>Repository is private for this ongoing group project.</p>
+                <p>This repository is private for this ongoing group project.</p>
             </div>
             
         
@@ -183,10 +341,11 @@
         
         <div class = "col-md-5">
             
-            <img src="../images/csvr.png" style="width: 60%;"/>
-            
+            <img src="../images/csvr.png" class ="image" style="width: 60%;"/>
+        
         </div>
         
+
         <div class = "long-descrip">
             <!-- TODO -->
         </div>

@@ -81,14 +81,56 @@ p{
     color:#E6E6E6;
 }
 
+.project-card h2{
+    text-align: left;
+    color:#E6E6E6;
+}
+
+
 .project-card h3{
     color:#E6E6E6;
+}
+
+.project-card h4{
+    text-align: left;
+    color:#E6E6E6;
+    font-size: 24px;
+
+}
+
+.project-card h5{
+    text-align: left;
+    color:#E6E6E6;
+    font-size: 22px;
 }
 
 .project-card p{
     font-size: 20px;
     padding: 10px 0;
     color: #E6E6E6;
+    text-align: left;
+}
+
+
+.image{
+    text-align: center;
+    max-width: 500px;
+}
+
+table{
+    color: #E6E6E6;
+}
+
+th{
+    text-align: center;
+}
+
+.table{
+    width: auto;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(31, 32, 65, 0.8);
 }
 
 .short-descrip{
@@ -97,6 +139,7 @@ p{
 
 .long-descrip{
     display: none;
+    margin-bottom: 30px;
 }
 
 
@@ -109,10 +152,9 @@ p{
     
     border-radius: 50px;
     float: left;
-    
     margin: 4px 4px;
     padding: 4px 16px;
-    
+
 }
 
 .skill-tag{
@@ -131,7 +173,7 @@ p{
 .link .fa{
     margin: 0 8%;
     opacity: 1;
-    color: black;
+    color: white;
     font-size: 6em;
 }
 
@@ -141,13 +183,91 @@ p{
     height: 100%;
     position: absolute;
     opacity: 0;
-    background: rgba(255, 255, 255, 0.65);
+    background: rgba(31, 32, 65, 0.4);
+    -webkit-transition: opacity 0.3s; 
+    transition: opacity 0.3s;
+}
+
+.repo-link-long-one{
+    width: 87%;
+    height: 55%;
+    position: absolute;
+    opacity: 0;
+    background: rgba(31, 32, 65, 0.4);
     -webkit-transition: opacity 0.3s; 
     transition: opacity 0.3s;
 }
 
 .repo-link:hover{
     opacity: 1;
+}
+
+.repo-link-long-one:hover{
+    opacity: 1;
+}
+
+.fa-expand{
+    font-size: 20px;
+    float: right;
+    position: relative;
+    color: #E6E6E6;
+    margin: -5px -35px 0 0;
+}
+
+.fa-compress{
+    font-size: 20px;
+    float: right;
+    position: relative;
+    color: #E6E6E6;
+    margin: -5px -35px 0 0;
+}
+
+.slide-up{
+    display: none;
+}
+
+
+@media (max-width: 992px) {
+    .image{
+        max-width: 450px;
+        margin-top: 30px;
+    }
+    .header{
+        margin: 0 20px;
+    }
+    .project-card{
+        margin: 40px 20px;
+    }
+    
+    .fa-expand{
+        margin: 0;
+    }
+    
+    .project-card p{
+        font-size: 15px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+    .skill{
+        font-size: 14px;
+        font-weight: bold;
+        color: #E6E6E6;
+        background-color: #8E5572;
+            
+        border-radius: 50px;
+        float: left;
+    
+        margin: 4px 4px;
+        padding: 4px 16px;
+    
+    }
+    .image-des{
+        margin-bottom: 20px;
+    }
+    
 }
 
 
