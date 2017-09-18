@@ -77,10 +77,8 @@
     <div class= "container-fluid project-card">
         
             
-                <i class="fa fa-expand slide-down"></i>
-                <i class="fa fa-compress slide-up"></i>
-
-
+        <i class="fa fa-expand slide-down"></i>
+        <i class="fa fa-compress slide-up"></i>
         
         <h1>Independent Set</h1>
         <div class ="row short">
@@ -110,13 +108,13 @@
         <div class = "row long-descrip">
             
             <div class = "row">
-                <div class = "col">
-                    <div class = "repo-link-long-one text-center">
+                <div class = "col-md-offset-3 col-md-6">
+                    <div class = "repo-link text-center">
                         <div class = "link">
                             <a href=https://github.com/easonychang/IndependentSet target='_blank'><i class='fa fa-github fa-4x'></i></a>
                         </div>
                     </div>
-                    <img src="../images/indepSet/tweet_announcement.png" class ="image" style="width: 80%;"/>      
+                    <img src="../images/indepSet/tweet_announcement.png" class ="image" style="width: 100%;"/>      
                 </div>
             </div>
             
@@ -261,37 +259,71 @@
     
     
     <div class = "container-fluid project-card">
-        <i class="fa fa-expand"></i>
+        <i class="fa fa-expand slide-down-two"></i>
+        <i class="fa fa-compress slide-up-two"></i>
         <h1>Tip Easy</h1>
-        <div class = "col-md-7">
-            <div class = "short-descip">
-                <p>Don’t have a good tip calculator app on your phone? Tired of tipping the post-tax amount? Or you are just like me who tips the pre-tax bill just out of habit. Well, you have found the right app. This is an iOS app that takes in the user’s location to see the tax rate of the location and calculate the right amount to tip your waiters based on the pre-tax bill.</p>
+        <div class = "row short-two">
+            <div class = "col-md-7">
+                <div class = "short-descip">
+                    <p>Don’t have a good tip calculator app on your phone? Tired of tipping the post-tax amount? Or you are just like me who tips the pre-tax bill just out of habit. Well, you have found the right app. This is an iOS app that takes in the user’s location to see the tax rate of the location and calculate the right amount to tip your waiters based on the pre-tax bill.</p>
+                </div>
+            
+            
+                <div class = "skill-tag">
+                    <div class = "skill">iOS/Xcode</div>
+                    <div class = "skill">Swift</div>
+                    <div class = "skill">Python</div>
+                    <div class = "skill">SQLite</div>
+                </div>
+            </div>
+        
+        
+            <div class = "col-md-5">
+                <div class = "repo-link text-center">
+                    <div class = "link">
+                        <a href=https://github.com/easonychang/Tip-Easy target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                    </div>
+                </div>
+                <img src="../images/tipeasy.png" class ="image" style="width: 55%;"/>
+
+            
+            </div>
+        </div>
+
+        <div class = "long-descrip-two">
+            <div class = "row">
+                <div class = "col-md-offset-4 col-md-4">
+                    <div class = "repo-link text-center">
+                        <div class = "link">
+                            <a href=https://github.com/easonychang/IndependentSet target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                        </div>
+                    </div>
+                    <img src="../images/tipeasy.png" class ="image" style="width: 100%;"/>      
+                </div>
             </div>
             
+            <p>Don’t have a good tip calculator app on your phone? Tired of tipping the post-tax amount? Or you are just like me who tips the pre-tax bill just out of habit. Well, you have found the right app. This is an iOS app that takes in the user’s location to see the tax rate of the location and calculate the right amount to tip your waiters based on the pre-tax bill.</p>
             
+            <h2>Tip Calculator</h2>
+            <p>What did I learned? I learned the basics in Swift, such as View Controller, i.e. label, text, segmented control, button, number pads.</p>
+            
+            <p>I used the CoreLocation framework in Swift as well as the interfaces of CLGeocode and CLLocationManager. </p> 
+            
+            <p>CLLocationManager was used to extract the user’s location, i.e. longitude and latitude. CLGeocode was then used to take in the user’s location and extract the zip code of the user’s current whereabouts. So I can use it to look up the sales tax rate.</p>
+
+            <p>I found the data of sales tax rates by locations <a href="http://www.taxrates.com/calculator/">here</a>. After doing some minor clean up of the data to turn it into a form that would be useful to the applicaiton, I wrote a short python script to process data. I then read in the data and created a database using SQLite.</p>
+        
+            <p>Finally I incorporated the SQLite database into Swift by using a wrapper, so I could make sales tax rate lookups very efficiently.</p>
+        
+            <h3>Project Type:</h3>
             <div class = "skill-tag">
                 <div class = "skill">iOS/Xcode</div>
                 <div class = "skill">Swift</div>
                 <div class = "skill">Python</div>
                 <div class = "skill">SQLite</div>
             </div>
-        </div>
         
-        <div class = "col-md-5">
-            <div class = "repo-link text-center">
-                <div class = "link">
-                    <a href=https://github.com/easonychang/Tip-Easy target='_blank'><i class='fa fa-github fa-4x'></i></a>
-                </div>
-            </div>
-            <img src="../images/tipeasy.png" class ="image" style="width: 55%;"/>
-
-            
         </div>
-
-        <div class = "long-descrip">
-            <!-- TODO -->
-        </div>
-    
     </div>
     
     <div class = "container-fluid project-card">
