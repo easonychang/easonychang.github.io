@@ -1,0 +1,225 @@
+10 Oct 2016 22:43:26 GMT: Log 'EclipseCompiler.txt' opened: 10 Oct 2016 22:43:26 GMT with name C:\Users\Student\Desktop\Lesson Turtle\EclipseCompiler.txt
+10 Oct 2016 22:44:13 GMT: diagnostics = javax.tools.DiagnosticCollector@59ad780b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@2ea12535
+fileObjects = [C:\Users\Student\Desktop\Lesson Turtle\DrawMyName.java]
+10 Oct 2016 22:44:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@28d392bc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Student\Desktop\Lesson Turtle;C:\Users\Student\Desktop\Dr Java\bookClass;C:\Users\Student\Desktop\drjava-beta-20160913-225446.exe]
+10 Oct 2016 22:44:14 GMT: Compiler call returned
+10 Oct 2016 22:44:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@67a572e
+10 Oct 2016 22:44:14 GMT:  Kind = ERROR
+10 Oct 2016 22:44:14 GMT: Name = C:\Users\Student\Desktop\Lesson Turtle\DrawMyName.java LineNo = 21 ColNo = 19 Msg = 'Syntax error, insert ";" to complete Statement'
+10 Oct 2016 22:44:21 GMT: diagnostics = javax.tools.DiagnosticCollector@22bbce2a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@46952272
+fileObjects = [C:\Users\Student\Desktop\Lesson Turtle\DrawMyName.java]
+10 Oct 2016 22:44:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@5e23bf0a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Student\Desktop\Lesson Turtle;C:\Users\Student\Desktop\Dr Java\bookClass;C:\Users\Student\Desktop\drjava-beta-20160913-225446.exe]
+10 Oct 2016 22:44:23 GMT: Compiler call returned
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3e03be43
+10 Oct 2016 22:44:23 GMT:  Kind = ERROR
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Lesson Turtle\DrawMyName.java LineNo = 23 ColNo = 12 Msg = 'The method turnRight() in the type SimpleTurtle is not applicable for the arguments (int)'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d68a687
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 249 ColNo = 10 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@302415dd
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 242 ColNo = 10 Msg = 'java.util.List is a raw type. References to generic type java.util.List<E> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@35095988
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 15 ColNo = 14 Msg = 'The serializable class World does not declare a static final serialVersionUID field of type long'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@165b08cc
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 138 ColNo = 5 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5ecfd81e
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 5 ColNo = 8 Msg = 'The import java.util.Observer is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4ed5a4e7
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 23 ColNo = 17 Msg = 'The value of the field World.background is not used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@316f61ac
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java LineNo = 1 ColNo = 8 Msg = 'The import java.util is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7f3c0225
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java LineNo = 2 ColNo = 8 Msg = 'The import java.awt is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5f133af4
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 1 ColNo = 8 Msg = 'The import javax.swing is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3c824f6d
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 3 ColNo = 8 Msg = 'The import java.awt.font is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@762a3b50
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 5 ColNo = 8 Msg = 'The import java.util.Observer is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6918329a
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 6 ColNo = 8 Msg = 'The import java.util.Random is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2f9a61d7
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 181 ColNo = 12 Msg = 'The value of the local variable angle is not used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cdba6e
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimplePicture.java LineNo = 3 ColNo = 8 Msg = 'The import javax.swing.ImageIcon is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@261ae1bc
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java LineNo = 140 ColNo = 5 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e3e9b07
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java LineNo = 3 ColNo = 8 Msg = 'The import javax.swing is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7256d7ce
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\PictureFrame.java LineNo = 2 ColNo = 8 Msg = 'The import java.awt is never used'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ea41d20
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 143 ColNo = 9 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6fc20849
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 195 ColNo = 8 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15de4015
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 221 ColNo = 9 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@51721dc7
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 267 ColNo = 8 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6f0157d4
+10 Oct 2016 22:44:23 GMT:  Kind = WARNING
+10 Oct 2016 22:44:23 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 185 ColNo = 12 Msg = 'The value of the local variable done is not used'
+10 Oct 2016 22:44:30 GMT: diagnostics = javax.tools.DiagnosticCollector@71e0c10b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@45b77ecd
+fileObjects = [C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java, C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java, C:\Users\Student\Desktop\Dr Java\bookClass\PictureFrame.java, C:\Users\Student\Desktop\Dr Java\bookClass\SimplePicture.java, C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java, C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java, C:\Users\Student\Desktop\Dr Java\bookClass\World.java, C:\Users\Student\Desktop\Lesson Turtle\DrawMyName.java]
+10 Oct 2016 22:44:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6a450420' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Student\Desktop\Dr Java\bookClass;C:\Users\Student\Desktop\Lesson Turtle;C:\Users\Student\Desktop\Dr Java\bookClass;C:\Users\Student\Desktop\drjava-beta-20160913-225446.exe]
+10 Oct 2016 22:44:31 GMT: Compiler call returned
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6c97c250
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 143 ColNo = 9 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2dc8c412
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 195 ColNo = 8 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f9ff97a
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 221 ColNo = 9 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@24aa91bf
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 267 ColNo = 8 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@767d5238
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 185 ColNo = 12 Msg = 'The value of the local variable done is not used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dfee0b1
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java LineNo = 140 ColNo = 5 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7d4a9e5d
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java LineNo = 3 ColNo = 8 Msg = 'The import javax.swing is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d1dcf22
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\PictureFrame.java LineNo = 2 ColNo = 8 Msg = 'The import java.awt is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@116da02b
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimplePicture.java LineNo = 3 ColNo = 8 Msg = 'The import javax.swing.ImageIcon is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7b7c31df
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 1 ColNo = 8 Msg = 'The import javax.swing is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@526de09b
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 3 ColNo = 8 Msg = 'The import java.awt.font is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@316a512b
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 5 ColNo = 8 Msg = 'The import java.util.Observer is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4d7ac3d5
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 6 ColNo = 8 Msg = 'The import java.util.Random is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5792f16c
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 181 ColNo = 12 Msg = 'The value of the local variable angle is not used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6ac6aa3d
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java LineNo = 1 ColNo = 8 Msg = 'The import java.util is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9464d47
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java LineNo = 2 ColNo = 8 Msg = 'The import java.awt is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12b943d1
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 249 ColNo = 10 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5260d97b
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 242 ColNo = 10 Msg = 'java.util.List is a raw type. References to generic type java.util.List<E> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@da80648
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 15 ColNo = 14 Msg = 'The serializable class World does not declare a static final serialVersionUID field of type long'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@36bf5ecf
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 138 ColNo = 5 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6e403402
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 5 ColNo = 8 Msg = 'The import java.util.Observer is never used'
+10 Oct 2016 22:44:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3abf93b0
+10 Oct 2016 22:44:31 GMT:  Kind = WARNING
+10 Oct 2016 22:44:31 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 23 ColNo = 17 Msg = 'The value of the field World.background is not used'
+10 Oct 2016 22:44:56 GMT: diagnostics = javax.tools.DiagnosticCollector@26ea116b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@73b55d9e
+fileObjects = [C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java, C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java, C:\Users\Student\Desktop\Dr Java\bookClass\PictureFrame.java, C:\Users\Student\Desktop\Dr Java\bookClass\SimplePicture.java, C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java, C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java, C:\Users\Student\Desktop\Dr Java\bookClass\World.java, C:\Users\Student\Desktop\Lesson Turtle\DrawMyName.java]
+10 Oct 2016 22:44:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@3a956e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\Student\Desktop\Dr Java\bookClass;C:\Users\Student\Desktop\Lesson Turtle;C:\Users\Student\Desktop\Dr Java\bookClass;C:\Users\Student\Desktop\drjava-beta-20160913-225446.exe]
+10 Oct 2016 22:44:56 GMT: Compiler call returned
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@32f70b1c
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 143 ColNo = 9 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1661fa22
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 195 ColNo = 8 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@54427af5
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 221 ColNo = 9 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6fdede5c
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 267 ColNo = 8 Msg = 'java.lang.Class is a raw type. References to generic type java.lang.Class<T> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@65fb8750
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\FileChooser.java LineNo = 185 ColNo = 12 Msg = 'The value of the local variable done is not used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7c52d127
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java LineNo = 140 ColNo = 5 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3b00998a
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Pen.java LineNo = 3 ColNo = 8 Msg = 'The import javax.swing is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22359c88
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\PictureFrame.java LineNo = 2 ColNo = 8 Msg = 'The import java.awt is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4d4e99
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimplePicture.java LineNo = 3 ColNo = 8 Msg = 'The import javax.swing.ImageIcon is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@717c7f3e
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 1 ColNo = 8 Msg = 'The import javax.swing is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e0f6452
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 3 ColNo = 8 Msg = 'The import java.awt.font is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@40d060c7
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 5 ColNo = 8 Msg = 'The import java.util.Observer is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3198d7c2
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 6 ColNo = 8 Msg = 'The import java.util.Random is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@230fdb40
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\SimpleTurtle.java LineNo = 181 ColNo = 12 Msg = 'The value of the local variable angle is not used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16170687
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java LineNo = 1 ColNo = 8 Msg = 'The import java.util is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@55028ada
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\Turtle.java LineNo = 2 ColNo = 8 Msg = 'The import java.awt is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22d3717f
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 249 ColNo = 10 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7f5b7bbe
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 242 ColNo = 10 Msg = 'java.util.List is a raw type. References to generic type java.util.List<E> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@51d669ec
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 15 ColNo = 14 Msg = 'The serializable class World does not declare a static final serialVersionUID field of type long'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10437d56
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 138 ColNo = 5 Msg = 'java.util.Iterator is a raw type. References to generic type java.util.Iterator<E> should be parameterized'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@29a2aea8
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 5 ColNo = 8 Msg = 'The import java.util.Observer is never used'
+10 Oct 2016 22:44:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d80b6a9
+10 Oct 2016 22:44:56 GMT:  Kind = WARNING
+10 Oct 2016 22:44:56 GMT: Name = C:\Users\Student\Desktop\Dr Java\bookClass\World.java LineNo = 23 ColNo = 17 Msg = 'The value of the field World.background is not used'
