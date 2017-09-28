@@ -122,7 +122,6 @@ p{
     max-width: 500px;
 }
 
-
 table{
     color: #E6E6E6;
 }
@@ -143,13 +142,9 @@ th{
     padding: 5px 0 10px;
 }
 
-.long-descrip, .long-descrip-two{
+.long-descrip, .long-descrip-two, .long-descrip-three, .long-descrip-four {
     display: none;
     margin-bottom: 30px;
-}
-
-.slide-up, .slide-up-two{
-    display: none;
 }
 
 
@@ -186,6 +181,11 @@ th{
     font-size: 6em;
 }
 
+a:hover{
+    color: #E6E6E6;
+    text-decoration: none;
+
+}
 
 .repo-link{
     width: calc(100% - 30px);
@@ -206,6 +206,7 @@ th{
 
 
 .fa-expand{
+    cursor: pointer;
     font-size: 20px;
     float: right;
     position: relative;
@@ -214,11 +215,16 @@ th{
 }
 
 .fa-compress{
+    cursor: pointer;
     font-size: 20px;
     float: right;
     position: relative;
     color: #E6E6E6;
     margin: -10px -40px 0 0;
+}
+
+.slide-up, .slide-up-two, .slide-up-three, .slide-up-four{
+    display: none;
 }
 
 
