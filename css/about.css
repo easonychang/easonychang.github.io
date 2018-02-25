@@ -16,6 +16,10 @@ p, h1 {
     padding-bottom: 502px;
 }
 
+.exptitle{
+	color: black;
+}
+
 /*NAV BAR*/
 .navbar{
     margin-bottom: 0 !important;
@@ -92,6 +96,7 @@ h2{
   text-align: center;
   color: #fff;
 }
+
 
 h4{
     font-size: 25px;
